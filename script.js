@@ -1,17 +1,4 @@
-const quotes = [
-  {
-    quote: "Сила не в том, чтобы никогда не падать, а в том, чтобы подниматься каждый раз, когда падаешь",
-    author: "Конфуций",
-  },
-  {
-    quote: "Единственный способ добиться успеха — делать то, что вы любите",
-    author: "Стив Джобс",
-  },
-  {
-    quote: "Счастье не в том, чтобы иметь всё, а в умении видеть радость в малом",
-    author: "Лев Толстой",
-  },  
-];
+import quotes from "./quotes.js";
 
 const quoteElement = document.getElementById("quote");
 const quoteAuthorElement = document.getElementById('quote-author');
