@@ -37,7 +37,7 @@ body {
   content: '"';
 }
 
-.favorite-container {
+.favorites-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -56,5 +56,11 @@ body {
   font-style: italic;
 }
 
+.star-icon {
+  font-size: 30px;
+  color: yellow;
+  vertical-align: middle;
+  cursor: pointer;
+}
 
 
